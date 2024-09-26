@@ -1,79 +1,36 @@
-@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
-body {
-    margin: 0px;
-    font-family: "Heebo", sans-serif;
-}
-
-.container {
-    width: 375px;
-    height: 100vh;
+body{
+    background-color: black;
+    padding-top: 20vh;
    
-    margin: 0 auto;
 }
-
-.header {
-    height: 50px;
+.container{
     
-}
-
-.main {
-    
-    height: calc(100vh - 50px);
     text-align: center;
-}
-.developer-photo {
-    width: 170px;
-    border: 1px solid;
-}
-
-.main-title {
-    margin: 43px;
-    text-align: center;
-}
-.text-1 {
-    text-align: center;
-    font-size: 18px;
-    line-height: 40px;
-}
-
-.img-wrapper {
-    height: 170px;
-    width: 170px;
-    border-radius: 50%;
-    overflow: hidden;
-    margin: 33px auto;
-}
-.img-wrapper img {
-    width: 170px;
-    margin-top: -50px;
-}
-.main-title {
-    margin-right: 43px;
-    text-align: center;
-}
-.text-1 {
-    text-align: center;
-    font-size: 18px;
-}
-
-button {
-    width: 208px;
-    height: 48px;
-}
-button {
-    border: none;
-    font-family: "Heebo", sans-serif;
-    background: #17db52;
-    color: rgb(255, 255, 255);
-    margin: 0 auto;
-    margin-top: 27px;
-}
-.header {
-    height: 50px;
-    
+    background-color: goldenrod;
     display: flex;
-    justify-content: flex-end;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
     align-items: center;
-    padding-inline: 10px;
-    font-size: 30px;
+    margin-top: 18%;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+#btn{
+    cursor: pointer;
+    background: black;
+    color: darkkhaki;
+    font-size: 20px;
+    font-family: cursive;
+}
+#joke{
+    font-family: inherit;
+    letter-spacing: 3px;
+    font-size: 25px;
+}
+#pid{
+    font-size: 20px;
+    font-weight: 700;
 }
